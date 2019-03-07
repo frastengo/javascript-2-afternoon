@@ -155,24 +155,35 @@ user2.email = 'tyler.mcginnis@devmounta.in';
   Create an empty object called methodCollection.
 */
 
-//Code Here
+var methodCollection = {}
+
 
 
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object. 
-  One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console. 
+  One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello
+  ' to the console. 
 */
 
-//Code Here
+methodCollection.alertHello = function() {
+  alert('hello')
+}
 
+methodCollection.logHello = function() {
+  console.log('hello')
+}
 
+// methodCollection.func1 = alertHello;
+// methodCollection.func2 = logHello;
 
+// methodCollection
 /*
   Now call your alertHello and logHello methods.
 */
 
-//Code Here
+methodCollection.alertHello();
+methodCollection.logHello();
 
 
 
@@ -183,7 +194,7 @@ user2.email = 'tyler.mcginnis@devmounta.in';
   Return a new object with all of the information that you passed in.
 */
 
-//Code Here
+// function makePerson 
 
 
 
@@ -195,5 +206,3 @@ user2.email = 'tyler.mcginnis@devmounta.in';
 */
 
 //Code Here
-
-
